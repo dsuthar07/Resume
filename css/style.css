@@ -182,13 +182,10 @@
   transition: .5s;
 }
 
-.portfolio-item {
-  background-color: #f4f4f4;
-    color: #333;
-}
-
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
+  background-color: #f4f4f4;
+  color: #333;
   width: calc(100% - 60px);
   height: calc(100% - 60px);
   top: 30px;
