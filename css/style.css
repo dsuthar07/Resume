@@ -182,10 +182,16 @@
   transition: .5s;
 }
 
+.portfolio-item .portfolio-btn p {
+  color: #333; 
+}
+
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
+  border: 1px solid #333;
   background-color: #f4f4f4;
   color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   width: calc(100% - 60px);
   height: calc(100% - 60px);
   top: 30px;
@@ -200,6 +206,7 @@
 
 .portfolio-item:hover i {
   opacity: 1;
+  color: #333;
 }
 
 .testimonial-carousel .owl-dots {
