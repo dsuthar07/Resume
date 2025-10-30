@@ -178,7 +178,7 @@
   left: 50%;
   font-size: 90px;
   background: rgba(0, 0, 0, 0.9);
-  opacity: 50;
+  opacity: 0;
   transition: .5s;
 }
 
